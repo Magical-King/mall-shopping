@@ -23,4 +23,18 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.universe.mall</groupId>
+                <artifactId>mall-common</artifactId>
+                <version>${mall.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.universe.mall</groupId>
+                <artifactId>mall-service-depenency</artifactId>
+                <version>${mall.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
