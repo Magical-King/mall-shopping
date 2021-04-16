@@ -1,4 +1,4 @@
-package io.universe.mall.common.exception;
+package io.universe.mallframework.common.exception;
 
 /**
  * 执行异常

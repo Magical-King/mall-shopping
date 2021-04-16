@@ -1,4 +1,4 @@
-package io.universe.mall.common;
+package io.universe.mallframework.common;
 
 import lombok.*;
 
